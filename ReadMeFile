@@ -1,0 +1,35 @@
+Cypress is a desktop application that is installed on your computer. The desktop application supports these operating systems:
+
+    macOS 10.9 and above (64-bit only)
+    Linux Ubuntu 12.04 and above, Fedora 21 and Debian 8 (64-bit only)
+    Windows 7 and above
+
+If using npm to install Cypress then you required:
+
+    Node.js 8 and above
+    
+    
+    Steps to run code from github repository: 
+ 1. Just clone code in your project.
+ 2. Open the code in visual studio editor.
+ 3. Enter npx cypress open command
+ 4. I have a file 'AddtoCart.js' in my project just double click on this file from cypress window. 
+ 
+    
+	
+Steps to create cypress project from scratch 
+  
+1. First create a folder where you keep your project.
+2. open cmd on in folder and type npm init command in it.
+3. Make sure that you have a node_modules folder or package.json file in the root of your project to ensure cypress is installed in the correct directory.
+4. Open your folder in visual code editor.
+5. Open terminal and enter following command:
+npm install cypress --save-dev
+6. New modules files are downloaded in your folder.
+7. Open terminal and press following command;
+npx cypress open
+8. Cypress folder is now generated with following folders in it;
+	a.fixtures --data files like .json files.
+	b.integration -- Test suits and test cases are added in this folder
+	c.plugin -- Custome code are written in this folder
+	d.support --
